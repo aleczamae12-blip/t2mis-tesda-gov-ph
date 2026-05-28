@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "t2mis-tesda-gov-ph",
+  "compatibility_date": "2026-05-28",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "RWAC STUDENT - JAMES"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
