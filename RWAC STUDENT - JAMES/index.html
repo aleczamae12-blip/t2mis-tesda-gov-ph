@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student - Training Management Info System</title>
+  <link rel="icon" type="image/png" href="assets/tesda-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="record-card">
+      <header class="record-header">
+        <span class="record-icon person-icon" aria-hidden="true"></span>
+        <span class="record-name">JAMES CHRISTIAN RAMIREZ BALLELOS</span>
+      </header>
+
+      <div class="record-body">
+        <section class="qr-section" aria-label="Learner QR code">
+          <a
+            class="qr-card"
+            href="https://pagedrop.dev/s/nbFr9dR3"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open learner record"
+          >
+            <img
+              class="qr-image"
+              src="assets/james-record-qr.png"
+              alt="QR code linking to the learner record of James Christian Ramirez Ballelos"
+            >
+          </a>
+        </section>
+
+        <div class="tabs" role="tablist" aria-label="Profile sections">
+          <button class="tab-button is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-training" id="tab-training" data-tab="training">Training</button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="panel-assessment" id="tab-assessment" data-tab="assessment">Assessment</button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="panel-renewal" id="tab-renewal" data-tab="renewal">Renewal</button>
+        </div>
+
+        <section class="tab-panel is-active" id="panel-training" role="tabpanel" aria-labelledby="tab-training">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Province</th>
+                  <th>School</th>
+                  <th>Qualification</th>
+                  <th>Schedule</th>
+                  <th>Trainer</th>
+                  <th>Type of Scholarship</th>
+                  <th>Training Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>National Capital Region (NCR)</td>
+                  <td>Taguig</td>
+                  <td>Regional Training Center - NCR (RTC-NCR)</td>
+                  <td>Computer Systems Servicing NC II</td>
+                  <td>4/4/2026 - 5/15/2026</td>
+                  <td>Mario T. Javier</td>
+                  <td>Training for Work Scholarship Program (TWSP)</td>
+                  <td>Completed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="panel-assessment" role="tabpanel" aria-labelledby="tab-assessment" hidden>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Province</th>
+                  <th>Assessment Center</th>
+                  <th>Qualification</th>
+                  <th>Schedule</th>
+                  <th class="assessment-gap"></th>
+                  <th>Assessment Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Region IVA - CALABARZON</td>
+                  <td>Quezon</td>
+                  <td>ADVANCE TECHNOLOGICAL SCIENCE SCHOOL INC.</td>
+                  <td>Electronic Products Assembly and Servicing NC II</td>
+                  <td>7/9/2025</td>
+                  <td class="assessment-gap"></td>
+                  <td class="assessment-result">Assessment Result : Competent</td>
+                </tr>
+                <tr>
+                  <td>National Capital Region (NCR)</td>
+                  <td>Taguig</td>
+                  <td>Regional Training Center - NCR (RTC-NCR)</td>
+                  <td>Computer Systems Servicing NC II</td>
+                  <td>5/24/2026</td>
+                  <td class="assessment-gap"></td>
+                  <td class="assessment-result">Assessment Result : Competent</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="panel-renewal" role="tabpanel" aria-labelledby="tab-renewal" hidden>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Province</th>
+                  <th>Qualification</th>
+                  <th>Valid Until</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Region IVA - CALABARZON</td>
+                  <td>Quezon</td>
+                  <td>Electronic Products Assembly and Servicing NC II</td>
+                  <td>7/9/2025</td>
+                </tr>
+                <tr>
+                  <td>National Capital Region (NCR)</td>
+                  <td>Taguig</td>
+                  <td>Computer Systems Servicing NC II</td>
+                  <td>5/23/2026</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
